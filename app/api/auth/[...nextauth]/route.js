@@ -36,8 +36,8 @@ export const authoptions = NextAuth({
             name: user.name,
             profilepic: user.image,
             coverpic:'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVvMGpxaHltcjY5MGEyamh4OWlzN2ltZmdudHgxNG1pOTZyMTYzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z7wIVXPnpm1DiJDdsU/giphy.gif',
-            razorpayid:'',
-            razorpaysecret:'',
+            razorpayid:'your_id',
+            razorpaysecret:'your_secret',
 
             
            

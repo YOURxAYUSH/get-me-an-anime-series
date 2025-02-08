@@ -181,7 +181,7 @@ const PaymentPage = ({ username }) => {
       rzp1.open()
     } catch (error) {
       console.error('Error during payment:', error)
-      toast.error('Payment failed. Please try again later.', {
+      toast.error('Payment failed.Wrong Razorpay Credentials!.', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
