@@ -35,7 +35,7 @@ export const authoptions = NextAuth({
             username: user.email.split("@")[0], 
             name: user.name,
             profilepic: user.image,
-            coverpic:'http://localhost:3000/c20.gif',
+            coverpic:'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVvMGpxaHltcjY5MGEyamh4OWlzN2ltZmdudHgxNG1pOTZyMTYzdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z7wIVXPnpm1DiJDdsU/giphy.gif',
             razorpayid:'',
             razorpaysecret:'',
 
