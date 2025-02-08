@@ -1,6 +1,11 @@
 import Button from "@/components/Button";
 import Image from "next/image";
 import Link from "next/link";
+import Typedtext from "@/components/Typedtext";
+
+
+
+
 export default function Home() {
   
   return (
@@ -19,30 +24,34 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white h-1 opacity-10"></div>
-      <div className="text-white pt-10 pb-40">
+      <div className="text-white  pt-10 pb-40">
         <div className="text-center text-xl font-bold">Anime Lovers Can Buy Me An Anime Series!</div>
         <div className="flex justify-around flex-col gap-20 md:gap-0 md:flex-row pt-5 ">
-          <div className="flex flex-col gap-2 items-center justify-center" >
+          <div className="flex  flex-col  gap-2 items-center justify-center" >
             <img className="rounded-full " width={88} height={88} src={'/anime-money.gif'} alt={"image"}/>
             <p className="font-semibold">Fuel My Anime Obsession!</p>
-            <p>Help me fund my next anime binge-watch marathon!</p>
+            <div className="w-[418px]"><Typedtext firstText={'Help me fund my next anime binge-watch marathon!'} secondText={'Contribute to my quest for the ultimate anime experience!'} thirdText={'Be part of my epic quest to discover hidden anime gems!'}/></div>
+            
           </div>
           <div className="flex flex-col gap-2 items-center justify-center" >
             <img className="rounded-full" width={88} height={88} src={'/steal-money.gif'} alt={"image"}/>
             <p className="font-semibold">Support My Anime Journey!</p>
-            <p>Contribute to my quest for the ultimate anime experience!</p>
+          <div className="w-[418px]"><Typedtext thirdText={'Help me fund my next anime binge-watch marathon!'} firstText={'Contribute to my quest for the ultimate anime experience!'} secondText={'Be part of my epic quest to discover hidden anime gems!'}/></div> 
+           
           </div>
           <div className="flex flex-col gap-2 items-center justify-center" >
             <img className="rounded-full" width={88} height={88} src={'/watashi-money.gif'} alt={"image"}/>
             <p className="font-semibold">Join My Anime Adventure!</p>
-            <p>Be part of my epic quest to discover hidden anime gems!</p>
+            <div className="w-[418px]"><Typedtext secondText={'Help me fund my next anime binge-watch marathon!'} thirdText={'Contribute to my quest for the ultimate anime experience!'} firstText={'Be part of my epic quest to discover hidden anime gems!'}/></div>
+            
+            
           </div>
         </div>
       </div>
        < div className="bg-white h-1 opacity-10"></div>
       <div className="text-white pt-10 pb-40">
         <div className="text-2xl font-bold text-center">Learn More About Us &hearts; </div>
-          <div className=" md:block hidden border-2 border-black rounded-lg w-fit mx-auto my-5">
+        <div className=" md:block hidden border-2 border-black rounded-lg w-fit mx-auto my-5">
            <iframe className="rounded-lg" width="660" height="415" src="https://www.youtube.com/embed/2OihkmY2BPk?autoplay=0&loop=1&rel=0&playlist=2OihkmY2BPk&si=VWoCg3r0CeJY0KZv" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
           <div className=" block md:hidden border-2 border-black rounded-lg w-fit mx-auto my-5">

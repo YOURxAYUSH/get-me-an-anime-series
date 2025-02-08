@@ -34,7 +34,7 @@ const Login = () => {
 
         <LoginButtons className='px-10 py-2' onClick={()=> {signIn('github')}}  buttonName={<Image src="/twitter.svg" alt="Twitter Logo" width={24} height={24} />}/>
         <LoginButtons className='px-10 py-2' onClick={()=> {signIn('google')}}  buttonName={<Image src='/google.svg' alt='Logo' width={24} height={24}/>}/>
-        <LoginButtons className='px-10 py-2' onClick={()=> {signIn('facebook')}}  buttonName={<Image src='/facebook.svg' alt='Logo' width={24} height={24}/>}/>
+        <LoginButtons className='px-10 py-2' onClick={()=> {signIn('google')}}  buttonName={<Image src='/facebook.svg' alt='Logo' width={24} height={24}/>}/>
         <LoginButtons className='px-10 py-2' onClick={()=> {signIn('github')}}  buttonName={<Image src='/github.svg' alt='Logo' width={24} height={24}/>}/>
 
      </div>

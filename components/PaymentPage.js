@@ -9,6 +9,7 @@ import { useRouter } from 'next/navigation'
 import { ToastContainer, toast } from 'react-toastify'
 import { Bounce } from 'react-toastify'
 import { useSearchParams } from 'next/navigation'
+import Typedtext from './Typedtext'
 
 const PaymentPage = ({ username }) => {
   const router = useRouter()
@@ -263,7 +264,7 @@ const PaymentPage = ({ username }) => {
             </ul>
           </div>
           <div className='payment-link rounded-lg p-5 w-full md:w-1/2 bg-gray-700'>
-            <div className='font-bold'>Make A Payment</div>
+            <div className='font-bold'><Typedtext firstText={'Make A Payment'} secondText={'Be A Supporter'} thirdText={'Share The Page With Others'}/></div>
             <div className='flex flex-col gap-3'>
               <div className='flex flex-col gap-3'>
                 <input onChange={handleChange} maxLength='10' name='name' value={paymentform.name} className='w-full mr-4 mt-1 rounded-md p-2 text-white h-10 bg-gray-500' placeholder="Enter your name (Max Character: 10)" />
