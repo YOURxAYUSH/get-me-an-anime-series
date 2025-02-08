@@ -157,6 +157,6 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ### 💬 Feedback  
-Have suggestions or issues? Feel free to open an [issue](https://github.com/your-username/get-me-an-anime-series/issues) or reach out via [email](vayuayu9568@gmail.com).  
+Have suggestions or issues? Feel free to open an [issue](https://github.com/your-username/get-me-an-anime-series/issues) or reach out via [email]vayuayu9568@gmail.com.  
 
 ---  
